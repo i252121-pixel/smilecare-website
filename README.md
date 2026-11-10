@@ -9,7 +9,7 @@ This repository contains a clean, mobile-friendly static homepage featuring the 
 
 ## Live Demo
 Check out the live site here:
-👉 [https://i252121-pixel.github.io/smilecare-website/](https://i252121-pixel.github.io/smilecare-website/)
+👉 https://i252121-pixel.github.io/smilecare-website/
 
 ## Quick Start
 To view it locally:
