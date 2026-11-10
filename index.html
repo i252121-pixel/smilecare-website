@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmileCare Dental Clinic</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --primary-dark: #0369a1;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: var(--card-bg);
+            max-width: 600px;
+            width: 100%;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .welcome-msg {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        .info-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .info-card {
+            background: #f1f5f9;
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+        }
+
+        .info-card h2 {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-bottom: 0.35rem;
+        }
+
+        .hours-list {
+            list-style: none;
+        }
+
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.25rem 0;
+        }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>SmileCare Dental Clinic</h1>
+            <p class="welcome-msg">Welcome to your home for healthy, confident smiles. We provide compassionate, top-quality dental care for the entire family.</p>
+        </header>
+
+        <main class="info-section">
+            <div class="info-card">
+                <h2>Location & Address</h2>
+                <p>123 Healthcare Boulevard, Suite 400<br>Medical District, Cityville, NY 10001</p>
+            </div>
+
+            <div class="info-card">
+                <h2>Hours of Operation</h2>
+                <ul class="hours-list">
+                    <li><span>Monday – Thursday:</span> <span>8:00 AM – 6:00 PM</span></li>
+                    <li><span>Friday:</span> <span>8:00 AM – 4:00 PM</span></li>
+                    <li><span>Saturday:</span> <span>9:00 AM – 2:00 PM</span></li>
+                    <li><span>Sunday:</span> <span>Closed</span></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2026 SmileCare Dental Clinic. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
