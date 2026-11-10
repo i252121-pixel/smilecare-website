@@ -42,6 +42,33 @@
             border: 1px solid #e2e8f0;
         }
 
+        /* Navigation Placeholder Styles */
+        .nav-placeholder {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
         header {
             text-align: center;
             border-bottom: 2px solid #f1f5f9;
@@ -99,7 +126,17 @@
 <body>
 
     <div class="container">
-        <header>
+        <!-- Navigation Placeholder -->
+        <nav class="nav-placeholder">
+            <span class="logo-text">🦷 SmileCare</span>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <header id="home">
             <h1>SmileCare Dental Clinic</h1>
             <p class="welcome-msg">Welcome to your home for healthy, confident smiles. We provide compassionate, top-quality dental care for the entire family.</p>
         </header>
